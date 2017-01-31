@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+All git info files are loaded as hidden files. It will create a staging area which is local repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging area is local repository. It helps to work git offline.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+By using git status, git diff --staged
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+Organized way to solve issues, developers can parallely work on features, helps in collabrating publicly.
+
+How do the diagrams help you visualize the branch structure?
+It helps to visulaize the projects, and also hepls to track commits. Also shows which branches consists which commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The result of merging two branches is developers can work freely and indepedently on different bugs and feature on same time, and merge to master.
+Its very simple to learn and understand when represent in diagram.
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+Automerging creates unwanted commits, no logical commits which will make git flow difficult to understand. Manual merging helps to create more logical commits and sometimes helps to revert the work when we are in wrong track through staging area.
